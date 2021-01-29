@@ -1,0 +1,83 @@
+.clearfix::after{
+    content:"";
+    clear:both;
+    display: block;
+    }
+.column{
+    float:left;
+    }
+    .top{
+        width: 20%;
+    }
+.bottom{
+    width: 40%;
+}
+    .border{
+        border:1px solid white;
+  background-color:white;
+  border-radius:2px;
+    }
+body{
+    background-color: lightgray;
+}
+.pad{
+    padding: 2% 3% 2% 3%;
+} 
+.css{
+    color: tomato;
+    
+}   
+.hr{
+    margin-top: 130px;
+    color: black; 
+    size:7px;
+}
+.cgpa{
+    margin-top: 2px;
+}
+address{
+    margin-top: 26px;
+    color: tomato;
+}
+.hrr{
+    margin-top: 30px;
+}
+.pp{
+    margin-top: 5px;
+}
+.hrrr{
+    margin-top: 10px;
+}
+.ppp{
+    margin-top: 5px;
+}
+.hrrrr{
+    margin-top: 47px;
+}
+.pppp{
+    margin-top: 5px;
+}
+.hrrrrr{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    .example {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .example {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .example {
+      width: 100%;
+    }
+}
+      
+      
